@@ -1,0 +1,57 @@
+.todo {
+	display: flex;
+	box-sizing: border-box;
+	overflow: hidden;
+	width: 300px;
+	height: 80px;
+	border: 1px solid gainsboro;
+	margin: 4px;
+	position: relative;
+	padding-right: 24px;
+	z-index: 0;
+}
+.todo-left {
+	max-width: 16px;
+	min-width: 16px;
+	height: 100%;
+	background-color: skyblue;
+}
+.todo-right {
+	display: flex;
+	/* margin: 0 auto; */
+	align-self: flex-end;
+	align-items: center;
+	justify-content: center;
+	width: 24px;
+	height: 100%;
+	padding: 4px;
+	position: absolute;
+	right: 0;
+}
+.done {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: lightgreen;
+}
+.undone {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: tomato;
+}
+.todo-body {
+	display: flex;
+	align-items: center;
+	padding: 8px;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.avg {
+	width: 20%;
+	font-size: x-large;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-weight: bolder;
+	padding: 8px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
